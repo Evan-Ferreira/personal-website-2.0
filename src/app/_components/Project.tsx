@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import Link from 'next/link';
 import { Host_Grotesk } from 'next/font/google';
+import Video from './project/Video';
 
 const hostGrotesk = Host_Grotesk({
     subsets: ['latin'],
@@ -19,7 +19,7 @@ const Project = () => {
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                <img src="/project1.png" alt="Project 1" width="100%" />
+                <Video></Video>
                 {isHovered && (
                     <>
                         <div className="absolute inset-0 bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
