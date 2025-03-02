@@ -1,5 +1,7 @@
 import { Host_Grotesk } from 'next/font/google';
 import Resume from './_components/Resume';
+import Socials from './_components/Socials';
+
 const hostGrotesk = Host_Grotesk({
     subsets: ['latin'],
     weight: ['300', '400', '500', '600', '700'],
@@ -11,11 +13,14 @@ export default function Home() {
             <div className="w-1/2 px-8"></div>
             <div className="w-1/2 px-8 flex flex-col justify-center items-center gap-8">
                 <div className="flex-col justify-center items-start w-full">
-                    <h1
-                        className={`${hostGrotesk.className}text-white tracking-widest text-4xl font-bold`}
-                    >
-                        EVAN FERREIRA
-                    </h1>
+                    <div className="flex items-center gap-8">
+                        <h1
+                            className={`${hostGrotesk.className}text-white tracking-widest text-4xl font-bold`}
+                        >
+                            EVAN FERREIRA
+                        </h1>
+                        <Socials />
+                    </div>
                     <p className="flex text-lg text-[#969696]">
                         Software, Startups, & Side Quests
                     </p>
