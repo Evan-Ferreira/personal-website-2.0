@@ -13,10 +13,38 @@ export default function Home() {
         <div className="flex bg-[#2A2A2A] h-screen w-screen py-8 px-8 gap-16">
             <div className="w-1/2 flex items-center max-md:hidden">
                 <div className="w-full grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center gap-12">
-                    <Project />
-                    <Project />
-                    <Project />
-                    <Project />
+                    <Project
+                        title="Stumble"
+                        date="2024"
+                        technologies={['React', 'Firebase', 'Git']}
+                        description="A social media platform for sharing and discovering new music."
+                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
+                        videoLink="/project1.png"
+                    />
+                    <Project
+                        title="Stumble"
+                        date="2024"
+                        technologies={['React', 'Firebase', 'Git']}
+                        description="A social media platform for sharing and discovering new music."
+                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
+                        videoLink="/project1.png"
+                    />
+                    <Project
+                        title="Stumble"
+                        date="2024"
+                        technologies={['React', 'Firebase', 'Git']}
+                        description="A social media platform for sharing and discovering new music."
+                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
+                        videoLink="/project1.png"
+                    />
+                    <Project
+                        title="Stumble"
+                        date="2024"
+                        technologies={['React', 'Firebase', 'Git']}
+                        description="A social media platform for sharing and discovering new music."
+                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
+                        videoLink="/project1.png"
+                    />
                 </div>
             </div>
             <div className="w-full md:w-1/2 flex flex-col justify-center items-center gap-8">

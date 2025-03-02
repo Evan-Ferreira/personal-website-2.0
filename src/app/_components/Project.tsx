@@ -9,24 +9,63 @@ const hostGrotesk = Host_Grotesk({
     weight: ['300', '400', '500', '600', '700'],
 });
 
-const Project = () => {
+type ProjectProps = {
+    title: string;
+    date: string;
+    technologies: Technology[];
+    description: string;
+    learnMoreLink: string;
+    videoLink: string;
+};
+
+type Technology = 'React' | 'Firebase' | 'Git';
+
+const technologyInfo: Record<
+    Technology,
+    { name: string; icon: string; redirect: string }
+> = {
+    React: {
+        name: 'React',
+        icon: '/react.png',
+        redirect: 'https://react.dev/',
+    },
+    Firebase: {
+        name: 'Firebase',
+        icon: '/firebase.png',
+        redirect: 'https://firebase.google.com/',
+    },
+    Git: {
+        name: 'Git',
+        icon: '/git.png',
+        redirect: 'https://git-scm.com/',
+    },
+};
+
+const Project = ({
+    title,
+    date,
+    technologies,
+    description,
+    learnMoreLink,
+    videoLink,
+}: ProjectProps) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-1 hover:scale-[105%]">
             <div className="flex items-center">
                 <h3
                     className={`${hostGrotesk.className} text-white text-lg font-light`}
                 >
-                    Stumble <span className="text-[#969696]">— 02-07-2024</span>
+                    {title} <span className="text-[#969696]">— {date}</span>
                 </h3>
             </div>
             <div
-                className="relative hover:scale-[105%] hover:cursor-default ease-in-out duration-150"
+                className="relative hover:cursor-default ease-in-out duration-150"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
-                <Video></Video>
+                <Video videoLink={videoLink} />
                 {isHovered && (
                     <>
                         <div className="absolute inset-0 bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
@@ -34,50 +73,40 @@ const Project = () => {
                             <p
                                 className={`${hostGrotesk.className} font-light px-4 py-2 hover:cursor-text`}
                             >
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Quisquam, quos.
+                                {description}
                             </p>
                             <div className="w-full flex justify-between px-4 py-2 mt-auto">
                                 <div className="flex gap-4">
-                                    <a
-                                        href="https://react.dev/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            src="/react.png"
-                                            alt="React"
-                                            width="25"
-                                            height="25"
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://react.dev/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            src="/git.png"
-                                            alt="Git"
-                                            width="25"
-                                            height="25"
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://react.dev/"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                    >
-                                        <img
-                                            src="/firebase.png"
-                                            alt="Firebase"
-                                            width="25"
-                                            height="25"
-                                        />
-                                    </a>
+                                    {technologies.map((technology, index) => (
+                                        <a
+                                            key={index}
+                                            href={
+                                                technologyInfo[
+                                                    technology as Technology
+                                                ].redirect
+                                            }
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                        >
+                                            <img
+                                                src={
+                                                    technologyInfo[
+                                                        technology as Technology
+                                                    ].icon
+                                                }
+                                                alt={
+                                                    technologyInfo[
+                                                        technology as Technology
+                                                    ].name
+                                                }
+                                                width="25"
+                                                height="25"
+                                            />
+                                        </a>
+                                    ))}
                                 </div>
                                 <a
-                                    href="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
+                                    href={learnMoreLink}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
