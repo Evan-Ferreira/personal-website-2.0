@@ -13,7 +13,14 @@ const Project = () => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="">
+        <div className="flex flex-col gap-1">
+            <div className="flex items-center">
+                <h3
+                    className={`${hostGrotesk.className} text-white text-lg font-light`}
+                >
+                    Stumble <span className="text-[#969696]">— 02-07-2024</span>
+                </h3>
+            </div>
             <div
                 className="relative hover:scale-[105%] hover:cursor-default ease-in-out duration-150"
                 onMouseEnter={() => setIsHovered(true)}
