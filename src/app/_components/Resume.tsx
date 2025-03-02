@@ -6,7 +6,7 @@ const Resume = () => {
     const [activeTab, setActiveTab] = useState<number | null>(null);
 
     return (
-        <div className="flex flex-col w-full gap-6">
+        <div className="flex flex-col w-full gap-4">
             <WorkExperience
                 id={0}
                 title="Software Developer"
