@@ -9,7 +9,7 @@ const hostGrotesk = Host_Grotesk({
 
 export default function Home() {
     return (
-        <div className="flex bg-black h-screen w-screen">
+        <div className="flex bg-[#2A2A2A] h-screen w-screen">
             <div className="w-1/2 px-8"></div>
             <div className="w-1/2 px-8 flex flex-col justify-center items-center gap-8">
                 <div className="flex-col justify-center items-start w-full">
