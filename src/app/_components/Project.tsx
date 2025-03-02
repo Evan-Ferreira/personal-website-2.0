@@ -16,7 +16,7 @@ const Project = () => {
         <div className="">
             <Link href="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024">
                 <div
-                    className="relative hover:scale-[105%]"
+                    className="relative hover:scale-[105%] hover:cursor-default ease-in-out duration-150"
                     onMouseEnter={() => setIsHovered(true)}
                     onMouseLeave={() => setIsHovered(false)}
                 >
@@ -26,7 +26,7 @@ const Project = () => {
                             <div className="absolute inset-0 bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
                             <div className="absolute inset-0 flex flex-col h-full w-full">
                                 <p
-                                    className={`${hostGrotesk.className} font-light px-4 py-2`}
+                                    className={`${hostGrotesk.className} font-light px-4 py-2 hover:cursor-text`}
                                 >
                                     Lorem ipsum dolor sit amet consectetur
                                     adipisicing elit. Quisquam, quos.
@@ -52,7 +52,7 @@ const Project = () => {
                                             height="25"
                                         />
                                     </div>
-                                    <div className="flex gap-2">
+                                    <div className="flex gap-2 hover:cursor-pointer">
                                         <p
                                             className={`${hostGrotesk.className} font-light`}
                                         >
