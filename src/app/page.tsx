@@ -51,7 +51,7 @@ export default function Home() {
                 <div className="flex-col justify-center items-start w-full">
                     <div className="flex items-center gap-8">
                         <h1
-                            className={`${hostGrotesk.className}text-white tracking-widest text-4xl font-bold`}
+                            className={`${hostGrotesk.className}text-white tracking-widest text-5xl max-sm:text-4xl font-bold`}
                         >
                             EVAN FERREIRA
                         </h1>
