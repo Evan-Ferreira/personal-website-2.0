@@ -1,5 +1,5 @@
 import { Host_Grotesk } from 'next/font/google';
-
+import Resume from './_components/Resume';
 const hostGrotesk = Host_Grotesk({
     subsets: ['latin'],
     weight: ['300', '400', '500', '600', '700'],
@@ -20,6 +20,7 @@ export default function Home() {
                         <p className="">Software, Startups, Side Quests</p>
                     </div>
                 </div>
+                <Resume />
             </div>
         </div>
     );
