@@ -1,9 +1,8 @@
 import React from 'react';
-import SideQuest from '../_components/SideQuest';
 
 const SideQuests = () => {
     return (
-        <div className="flex flex-col justify-center items-center min-h-screen p-8">
+        <div className="flex flex-col justify-center items-center min-h-screen">
             <div className="flex flex-col w-[28%] items-center">
                 <h3 className="text-[#969696] text-md">EVAN FERREIRA</h3>
                 <h1 className="text-white text-5xl font-bold  mt-2 mb-3">
@@ -15,9 +14,6 @@ const SideQuests = () => {
                     something, I dive deep into it. Here you'll find anything
                     related to software, athletics, and anything in between.
                 </p>
-            </div>
-            <div className="grid grid-cols-1">
-                <SideQuest />
             </div>
         </div>
     );
