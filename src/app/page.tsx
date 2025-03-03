@@ -10,12 +10,9 @@ const hostGrotesk = Host_Grotesk({
 
 export default function Home() {
     return (
-        <div className="flex bg-[#2A2A2A] h-screen w-screen pb-16 pt-24 px-48 gap-16">
-            <div className="w-1/2 flex items-center max-md:hidden overflow-hidden">
-                <div
-                    className="w-full grid grid-cols-1 mt-auto gap-4
-                justify-items-center object-contain items-center overflow-auto h-screen no-scrollbar pb-48"
-                >
+        <div className="flex bg-[#2A2A2A] h-screen w-screen p-8 gap-16">
+            <div className="w-1/2 flex items-center max-md:hidden">
+                <div className="w-full grid grid-cols-1 xl:grid-cols-2 justify-items-center items-center gap-12">
                     <Project
                         title="Stumble"
                         date="2024"
