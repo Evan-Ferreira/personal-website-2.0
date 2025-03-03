@@ -52,7 +52,7 @@ const Project = ({
     const [isHovered, setIsHovered] = useState(false);
 
     return (
-        <div className="flex flex-col gap-1 hover:scale-[105%]">
+        <div className="flex object-contain flex-col">
             <div className="flex items-center">
                 <h3
                     className={`${hostGrotesk.className} text-white text-lg font-light`}
@@ -61,7 +61,7 @@ const Project = ({
                 </h3>
             </div>
             <div
-                className="relative hover:cursor-default ease-in-out duration-150"
+                className="relative hover:scale-[105%] mt-2 hover:cursor-default ease-in-out duration-150"
                 onMouseEnter={() => setIsHovered(true)}
                 onMouseLeave={() => setIsHovered(false)}
             >
@@ -71,11 +71,11 @@ const Project = ({
                         <div className="absolute inset-0 bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
                         <div className="absolute inset-0 flex flex-col h-full w-full">
                             <p
-                                className={`${hostGrotesk.className} font-light px-4 py-2 hover:cursor-text`}
+                                className={`${hostGrotesk.className} font-light px-6 py-2 hover:cursor-text`}
                             >
                                 {description}
                             </p>
-                            <div className="w-full flex justify-between px-4 py-2 mt-auto">
+                            <div className="w-full flex justify-between py-2 px-6 mt-auto">
                                 <div className="flex gap-4">
                                     {technologies.map((technology, index) => (
                                         <a
