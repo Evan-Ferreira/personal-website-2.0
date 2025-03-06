@@ -1,5 +1,6 @@
 import React from 'react';
-import SideQuest from '../_components/SideQuest';
+import SideQuestRight from '../_components/SideQuestRight';
+import SideQuestLeft from '../_components/SideQuestLeft';
 
 const SideQuests = () => {
     return (
@@ -17,10 +18,10 @@ const SideQuests = () => {
                 </p>
             </div>
             <div className="grid grid-cols-1 gap-12">
-                <SideQuest></SideQuest>
-                <SideQuest></SideQuest>
-                <SideQuest></SideQuest>
-                <SideQuest></SideQuest>
+                <SideQuestLeft></SideQuestLeft>
+                <SideQuestRight></SideQuestRight>
+                <SideQuestLeft></SideQuestLeft>
+                <SideQuestRight></SideQuestRight>
             </div>
         </div>
     );
