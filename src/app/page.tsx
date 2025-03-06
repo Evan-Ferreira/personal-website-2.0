@@ -50,7 +50,7 @@ export default function Home() {
                     />
                 </div>
             </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-start items-center gap-6">
+            <div className="w-full md:w-1/2 flex flex-col justify-center items-center gap-3">
                 <div className="flex-col justify-center items-start w-full">
                     <div className="flex items-center gap-8">
                         <h1
