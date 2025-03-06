@@ -16,7 +16,10 @@ const SideQuests = () => {
                     related to software, athletics, and anything in between.
                 </p>
             </div>
-            <div className="grid-cols-1">
+            <div className="grid grid-cols-1 gap-12">
+                <SideQuest></SideQuest>
+                <SideQuest></SideQuest>
+                <SideQuest></SideQuest>
                 <SideQuest></SideQuest>
             </div>
         </div>
