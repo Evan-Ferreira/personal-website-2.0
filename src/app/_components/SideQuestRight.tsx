@@ -24,7 +24,7 @@ const SideQuestRight = () => {
                             alt="Right Arrow"
                             width="24"
                             height="24"
-                            className="group-hover/repo:translate-x-7 transition-transform duration-300 ease-in-out"
+                            className="group-hover/repo:translate-x-3 transition-transform duration-300 ease-in-out"
                         />
                     </div>
                 </a>

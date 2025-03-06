@@ -110,7 +110,7 @@ const Project = ({
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    <div className="flex gap-2 hover:cursor-pointer ease-in-out duration-100 font-light hover:font-semibold mr-7 group">
+                                    <div className="flex gap-2 hover:cursor-pointer ease-in-out duration-100 font-light hover:font-semibold mr-3 group">
                                         <p
                                             className={`${hostGrotesk.className}`}
                                         >
@@ -121,7 +121,7 @@ const Project = ({
                                             alt="Right Arrow"
                                             width="24"
                                             height="24"
-                                            className="group-hover:translate-x-7 transition-transform duration-300 ease-in-out"
+                                            className="group-hover:translate-x-3 transition-transform duration-300 ease-in-out"
                                         />
                                     </div>
                                 </a>
