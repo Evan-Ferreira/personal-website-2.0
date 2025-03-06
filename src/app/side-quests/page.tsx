@@ -17,12 +17,7 @@ const SideQuests = () => {
                     related to software, athletics, and everything in between.
                 </p>
             </div>
-            <div className="grid grid-cols-1 gap-12">
-                <SideQuestLeft></SideQuestLeft>
-                <SideQuestRight></SideQuestRight>
-                <SideQuestLeft></SideQuestLeft>
-                <SideQuestRight></SideQuestRight>
-            </div>
+            <div className="grid grid-cols-1 gap-12"></div>
         </div>
     );
 };

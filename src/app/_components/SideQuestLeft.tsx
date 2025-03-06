@@ -1,6 +1,20 @@
 import React from 'react';
 
-const SideQuestLeft = () => {
+type SideQuestProps = {
+    title: string;
+    description: string;
+    link: string;
+    imagePath: string;
+    year: string;
+};
+
+const SideQuestLeft = ({
+    title,
+    description,
+    link,
+    imagePath,
+    year,
+}: SideQuestProps) => {
     return (
         <div className="w-full h-64 overflow-hidden relative hover:scale-[105%] duration-150 ease-in-out group max-lg:opacity-100">
             <div
@@ -9,15 +23,11 @@ const SideQuestLeft = () => {
             >
                 <div className="flex flex-col gap-2">
                     <h2 className="text-white text-xl">
-                        Stumble <span className="text-[#969696]">— 2024</span>
+                        {title} <span className="text-[#969696]">— {year}</span>
                     </h2>
-                    <p className="text-[#E9E9E9] text-sm">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quos. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit.
-                    </p>
+                    <p className="text-[#E9E9E9] text-sm">{description}</p>
                 </div>
-                <a href="https://github.com/evanferreira/stumble">
+                <a href={link}>
                     <div className="flex items-center gap-2 hover:cursor-pointer ease-in-out duration-100 group/repo">
                         <p className="font-light text-md group-hover/repo:font-semibold">
                             Repository
@@ -32,7 +42,7 @@ const SideQuestLeft = () => {
                     </div>
                 </a>
             </div>
-            <img className="w-full" src="/project1.png" alt="" />
+            <img className="w-full" src={imagePath} alt="" />
             <div
                 className="absolute inset-0 bg-gradient-to-r from-transparent via-[#2A2A2A]/30 via-20%
              via-[#2A2A2A]/50 via-40% via-[#2A2A2A]/70 via-70% to-[#2A2A2A]/90"
