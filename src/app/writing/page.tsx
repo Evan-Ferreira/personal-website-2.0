@@ -10,6 +10,7 @@ const page = () => {
                     WRITING
                 </h1>
                 <p className="text-[#E9E9E9] text-sm">
+                    {/* TODO: shit - aidan's words not mine */}
                     If I'm being fully honest, I'm not a great writer and I'm
                     not sure I'm disciplined enough to consistently write.
                     However, I like to think writing during my (little) free

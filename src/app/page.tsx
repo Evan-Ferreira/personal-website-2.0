@@ -64,8 +64,8 @@ export default function Home() {
                         Software, Startups, & Side Quests
                     </p>
                     <p className="flex font-light text-[#E9E9E9] mt-2">
-                        Business student who likes to build software people
-                        actually care about. Also loves wrestling.
+                        Business student who loves to build software people
+                        actually care about. Also likes wrestling.
                     </p>
                     <Socials className="md:hidden mt-3" />
                 </div>

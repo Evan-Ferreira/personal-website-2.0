@@ -12,15 +12,17 @@ const Resume = () => {
                 onClick={() => {
                     setExperienceVisible(!experienceVisible);
                 }}
-                className="flex flex-row justify-center items-center gap-1 cursor-pointer animate-pulse hover:animate-none"
+                className="flex flex-row justify-center items-center gap-1 cursor-pointer hover:animate-none animate-pulse"
             >
-                <p className="font-light">Work Experience</p>
+                <p className="text-[#F9F9F9] text-sm font-semibold tracking-widest hover:text-[#969696] hover:cursor-pointer">
+                    WORK EXPERIENCE
+                </p>
                 {experienceVisible && (
                     <img
-                        src="/arrow-down.svg"
-                        alt="down-arrow"
-                        width={32}
-                        height={32}
+                        src="/arrow-up.svg"
+                        alt="up-arrow"
+                        width={22}
+                        height={22}
                     />
                 )}
                 {!experienceVisible && (
