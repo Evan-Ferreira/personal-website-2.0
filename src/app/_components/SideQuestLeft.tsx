@@ -34,6 +34,7 @@ const SideQuestLeft = () => {
                 className="absolute inset-0 bg-gradient-to-r from-transparent via-[#2A2A2A]/30 via-20%
              via-[#2A2A2A]/50 via-40% via-[#2A2A2A]/70 via-70% to-[#2A2A2A]/90"
             ></div>
+            <div className="absolute inset-0 hover:bg-gradient-to-r from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
         </div>
     );
 };

@@ -7,7 +7,7 @@ const Article = () => {
                 className="z-10 absolute h-full w-full flex flex-col justify-between py-8 px-8 opacity-0 translate-x-4 group-hover:opacity-100 
             group-hover:translate-x-0 ease-in-out duration-300 pointer-events-none group-hover:pointer-events-auto"
             >
-                <div className="flex flex-col">
+                <div className="flex flex-col relative z-10">
                     <h2 className="text-[#E9E9E9] text-sm font-bold">2024</h2>
                     <h2 className="text-[#E9E9E9] text-3xl font-semibold mb-2">
                         Joseph The Asian
@@ -32,6 +32,7 @@ const Article = () => {
                         />
                     </div>
                 </a>
+                <div className="absolute inset-0 hover:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A] -z-10"></div>
             </div>
             <img className="w-full" src="/project1.png" alt="" />
             <div
