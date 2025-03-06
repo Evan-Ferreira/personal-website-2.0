@@ -2,10 +2,10 @@ import React from 'react';
 
 const Article = () => {
     return (
-        <div className="w-full h-full overflow-hidden relative hover:scale-[105%] duration-150 ease-in-out group">
+        <div className="w-full h-full overflow-hidden relative hover:scale-[105%] duration-150 ease-in-out group max-lg:opacity-100">
             <div
-                className="z-10 absolute h-full w-full flex flex-col justify-between py-8 px-8 opacity-0 translate-x-4 group-hover:opacity-100 
-            group-hover:translate-x-0 ease-in-out duration-300 pointer-events-none 
+                className="z-10 absolute h-full w-full flex flex-col justify-between py-8 px-8 opacity-0 max-lg:opacity-100 group-hover:opacity-100 
+            group-hover:translate-x-0 ease-in-out duration-300 pointer-events-none max-lg:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]
             group-hover:pointer-events-auto hover:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A] inset-0"
             >
                 <div className="flex flex-col relative z-10">
@@ -44,6 +44,7 @@ const Article = () => {
                 via-[#2A2A2A]/85 via-80%
                 to-[#2A2A2A]"
             ></div>
+            <div className="absolute inset-0 hover:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
         </div>
     );
 };
