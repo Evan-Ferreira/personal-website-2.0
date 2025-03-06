@@ -1,4 +1,5 @@
 import React from 'react';
+import Article from '../_components/Article';
 
 const page = () => {
     return (
@@ -15,6 +16,12 @@ const page = () => {
                     time is a good way to force myself to reflect on my thoughts
                     and experiences.
                 </p>
+            </div>
+            <div className="grid grid-cols-2 gap-16">
+                <Article />
+                <Article />
+                <Article />
+                <Article />
             </div>
         </div>
     );
