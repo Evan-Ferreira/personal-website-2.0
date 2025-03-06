@@ -39,9 +39,13 @@ const WorkExperience = ({
             </div>
 
             <p className="text-base text-[#969696] mb-2">{company}</p>
-            {activeTab === id && (
+            <div
+                className={`overflow-hidden transition-[max-height] duration-500 ease-in-out ${
+                    activeTab === id ? 'max-h-[500px]' : 'max-h-0'
+                }`}
+            >
                 <p className="text-sm text-[#969696] italic">{description}</p>
-            )}
+            </div>
         </div>
     );
 };
