@@ -1,6 +1,20 @@
 import React from 'react';
 
-const Article = () => {
+type ArticleProps = {
+    title: string;
+    description: string;
+    link: string;
+    imagePath: string;
+    date: string;
+};
+
+const Article = ({
+    title,
+    description,
+    link,
+    imagePath,
+    date,
+}: ArticleProps) => {
     return (
         <div className="w-full h-full overflow-hidden relative hover:scale-[105%] duration-150 ease-in-out group max-lg:opacity-100">
             <div
@@ -9,17 +23,15 @@ const Article = () => {
             group-hover:pointer-events-auto hover:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A] inset-0"
             >
                 <div className="flex flex-col relative z-10">
-                    <h2 className="text-[#E9E9E9] text-sm font-bold">2024</h2>
+                    <h2 className="text-[#E9E9E9] text-sm font-bold">{date}</h2>
                     <h2 className="text-[#E9E9E9] text-3xl font-semibold mb-2">
-                        Joseph The Asian
+                        {title}
                     </h2>
                     <p className="text-[#E9E9E9] text-sm font-light">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, quos. Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit.
+                        {description}
                     </p>
                 </div>
-                <a href="https://github.com/evanferreira/stumble">
+                <a href={link}>
                     <div className="flex items-center gap-2 hover:cursor-pointer ease-in-out duration-100 group/repo">
                         <p className="font-light text-md group-hover/repo:font-semibold">
                             Read More
@@ -34,7 +46,7 @@ const Article = () => {
                     </div>
                 </a>
             </div>
-            <img className="w-full" src="/project1.png" alt="" />
+            <img className="w-full" src={imagePath} alt="" />
             <div
                 className="absolute inset-0 bg-gradient-to-b from-transparent 
                 via-[#2A2A2A]/10 via-20%

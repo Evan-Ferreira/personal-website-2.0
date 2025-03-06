@@ -10,20 +10,13 @@ const page = () => {
                     WRITING
                 </h1>
                 <p className="text-[#E9E9E9] text-sm">
-                    {/* TODO: shit - aidan's words not mine */}
-                    If I'm being fully honest, I'm not a great writer and I'm
-                    not sure I'm disciplined enough to consistently write.
-                    However, I like to think writing during my (little) free
-                    time is a good way to force myself to reflect on my thoughts
-                    and experiences.
+                    I'm not a great writer and I barely have the time to write
+                    lol. However, I like to think that forcing myself to write
+                    during my (little) free time is forces me to intentionally
+                    reflect on my thoughts and experiences.
                 </p>
             </div>
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-16">
-                <Article />
-                <Article />
-                <Article />
-                <Article />
-            </div>
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-16"></div>
         </div>
     );
 };
