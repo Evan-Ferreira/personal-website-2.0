@@ -22,7 +22,7 @@ const SideQuests = () => {
                     title="inQUbate - All Inclusive Trip to SF"
                     description="I love startups and I wanted to build a community of like-minded individuals. 
                 I ran a student-run startup club called inQUbate, where members pitched to investors and pitched
-                 to win an all-inclusive trip to San Francisco (pictured here)."
+                to win an all-inclusive trip to San Francisco (pictured here)."
                     link="https://www.instagram.com/inqubate.qu/"
                     imagePath="/sf.jpeg"
                     year="2025"

@@ -2,7 +2,6 @@ import { Host_Grotesk } from 'next/font/google';
 import Resume from './_components/Resume';
 import Socials from './_components/Socials';
 import Project from './_components/Project';
-import ProjectImage from './_components/ProjectImage';
 
 const hostGrotesk = Host_Grotesk({
     subsets: ['latin'],

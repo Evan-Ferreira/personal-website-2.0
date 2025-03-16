@@ -1,5 +1,4 @@
 import React from 'react';
-import Article from '../_components/Article';
 
 const page = () => {
     return (
