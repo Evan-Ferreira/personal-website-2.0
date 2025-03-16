@@ -17,7 +17,22 @@ const SideQuests = () => {
                     related to software, athletics, and everything in between.
                 </p>
             </div>
-            <div className="grid grid-cols-1 gap-12"></div>
+            <div className="grid grid-cols-1 gap-12">
+                <SideQuestLeft
+                    title="Side Quest 1"
+                    description="Description 1"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    year="2024"
+                />
+                <SideQuestRight
+                    title="Side Quest 2"
+                    description="Description 2"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    year="2024"
+                />
+            </div>
         </div>
     );
 };

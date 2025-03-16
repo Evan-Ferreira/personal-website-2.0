@@ -16,7 +16,36 @@ const page = () => {
                     reflect on my thoughts and experiences.
                 </p>
             </div>
-            <div className="grid lg:grid-cols-2 grid-cols-1 gap-16"></div>
+            <div className="grid lg:grid-cols-2 grid-cols-1 gap-16">
+                <Article
+                    title="Article 1"
+                    description="Description 1"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    date="2024-01-01"
+                />
+                <Article
+                    title="Article 2"
+                    description="Description 2"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    date="2024-01-01"
+                />
+                <Article
+                    title="Article 3"
+                    description="Description 3"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    date="2024-01-01"
+                />
+                <Article
+                    title="Article 4"
+                    description="Description 4"
+                    link="https://www.google.com"
+                    imagePath="/project1.png"
+                    date="2024-01-01"
+                />
+            </div>
         </div>
     );
 };
