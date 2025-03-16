@@ -12,9 +12,10 @@ const SideQuests = () => {
                 </h1>
                 <p className="text-[#E9E9E9] text-sm">
                     I like to keep myself busy — maybe too busy. I have a lot of
-                    hobbies and side projects and when I'm curious about
-                    something, I dive deep into it. Here you'll find anything
-                    related to software, athletics, and everything in between.
+                    hobbies and side projects and when I&apos;m curious about
+                    something, I dive deep into it. Here you&apos;ll find
+                    anything related to software, athletics, and everything in
+                    between.
                 </p>
             </div>
             <div className="grid grid-cols-1 gap-12">
