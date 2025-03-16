@@ -19,17 +19,33 @@ const SideQuests = () => {
             </div>
             <div className="grid grid-cols-1 gap-12">
                 <SideQuestLeft
-                    title="Side Quest 1"
-                    description="Description 1"
-                    link="https://www.google.com"
-                    imagePath="/project1.png"
-                    year="2024"
+                    title="inQUbate - All Inclusive Trip to SF"
+                    description="I love startups and I wanted to build a community of like-minded individuals. 
+                I ran a student-run startup club called inQUbate, where members pitched to investors and pitched
+                 to win an all-inclusive trip to San Francisco (pictured here)."
+                    link="https://www.instagram.com/inqubate.qu/"
+                    imagePath="/sf.jpeg"
+                    year="2025"
                 />
                 <SideQuestRight
-                    title="Side Quest 2"
-                    description="Description 2"
-                    link="https://www.google.com"
-                    imagePath="/project1.png"
+                    title="Wrestling"
+                    description="When I'm not coding or studying, you'll catch me on the wrestling mat. I love
+                    wrestling — for the past 6 years, I have competed at the provincial and
+                    national level where I was previously ranked as 3rd in Canada
+                    for the 2023-2024 season at 72kg."
+                    link="https://gogaelsgo.com/sports/wrestling/roster/2022-2023"
+                    imagePath="/wrestling.png"
+                    year="Present"
+                />
+                <SideQuestLeft
+                    title="Mayor's Innovation Challenge (Baobab)"
+                    description="
+                Last March, my two friends and I qualified for the Mayor's
+                Innovation Challenge. We won the competition and were awarded
+                $5,000 to kickstart Baobab, an app connecting those in need to
+                local donators completely anonymously."
+                    link="https://www.queensu.ca/gazette/stories/students-recognized-city-kingston-impactful-innovations"
+                    imagePath="/mayor-win.jpg"
                     year="2024"
                 />
             </div>

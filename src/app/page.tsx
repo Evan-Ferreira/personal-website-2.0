@@ -2,6 +2,7 @@ import { Host_Grotesk } from 'next/font/google';
 import Resume from './_components/Resume';
 import Socials from './_components/Socials';
 import Project from './_components/Project';
+import ProjectImage from './_components/ProjectImage';
 
 const hostGrotesk = Host_Grotesk({
     subsets: ['latin'],
@@ -17,36 +18,50 @@ export default function Home() {
                 justify-items-center object-contain items-center overflow-auto h-screen no-scrollbar pb-48"
                 >
                     <Project
-                        title="Stumble"
+                        title="Local Reach"
                         date="2024"
-                        technologies={['React', 'Firebase', 'Git']}
-                        description="A social media platform for sharing and discovering new music."
-                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
-                        videoLink="/project1.png"
+                        technologies={[
+                            'TensorFlow',
+                            'OpenCV',
+                            'Raspberry Pi',
+                            'Git',
+                        ]}
+                        description="Acquired by Taiv (YC W20). Local Reach was a startup that used AI to 
+                        help make restaurants and bars more fun and engaging. By using AI to detect and classify restaurant/bar TV content, 
+                        Local Reach was able to provide a more tailored experience for customers."
+                        learnMoreLink="https://thelocalreach.ca"
+                        videoLink="/localreach.mp4"
+                    />
+                    <Project
+                        title="Monkey Music"
+                        date="2024"
+                        technologies={[
+                            'Expo',
+                            'React Native',
+                            'Node.js',
+                            'Express',
+                        ]}
+                        description="Monkey Music is an app I built using Expo that allows you to download every song from your 
+                        Spotify playlist onto your phone's storage. This one of my first full stack projects and it taught me a lot 
+                        about mobile development and managing different APIs. "
+                        learnMoreLink="https://github.com/Evan-Ferreira/monkey-music?tab=readme-ov-file"
+                        videoLink="/monkey-music.mp4"
                     />
                     <Project
                         title="Stumble"
                         date="2024"
-                        technologies={['React', 'Firebase', 'Git']}
-                        description="A social media platform for sharing and discovering new music."
+                        technologies={[
+                            'Next.js',
+                            'Node.js',
+                            'Express',
+                            'MongoDB',
+                            'Git',
+                        ]}
+                        description="Stumble is a platform to help individuals (particularly CS students) practice their abilities to
+                         talk to the opposite sex. Using a leetcode like interface, users are able to practice and grind questions/scenarios 
+                         to best prep them for real life conversations."
                         learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
-                        videoLink="/project1.png"
-                    />
-                    <Project
-                        title="Stumble"
-                        date="2024"
-                        technologies={['React', 'Firebase', 'Git']}
-                        description="A social media platform for sharing and discovering new music."
-                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
-                        videoLink="/project1.png"
-                    />
-                    <Project
-                        title="Stumble"
-                        date="2024"
-                        technologies={['React', 'Firebase', 'Git']}
-                        description="A social media platform for sharing and discovering new music."
-                        learnMoreLink="https://github.com/Evan-Ferreira/Stumble_HackTheHill2024"
-                        videoLink="/project1.png"
+                        videoLink="/stumble.mp4"
                     />
                 </div>
             </div>

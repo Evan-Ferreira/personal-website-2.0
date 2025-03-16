@@ -17,7 +17,19 @@ type ProjectProps = {
     videoLink: string;
 };
 
-type Technology = 'React' | 'Firebase' | 'Git';
+type Technology =
+    | 'React'
+    | 'Firebase'
+    | 'Git'
+    | 'Raspberry Pi'
+    | 'TensorFlow'
+    | 'OpenCV'
+    | 'Expo'
+    | 'React Native'
+    | 'Node.js'
+    | 'Express'
+    | 'MongoDB'
+    | 'Next.js';
 
 const technologyInfo: Record<
     Technology,
@@ -37,6 +49,51 @@ const technologyInfo: Record<
         name: 'Git',
         icon: '/git.png',
         redirect: 'https://git-scm.com/',
+    },
+    'Raspberry Pi': {
+        name: 'Raspberry Pi',
+        icon: '/raspberrypi.svg',
+        redirect: 'https://www.raspberrypi.org/',
+    },
+    TensorFlow: {
+        name: 'TensorFlow',
+        icon: '/tensorflow.svg',
+        redirect: 'https://www.tensorflow.org/',
+    },
+    OpenCV: {
+        name: 'OpenCV',
+        icon: '/opencv.svg',
+        redirect: 'https://opencv.org/',
+    },
+    Expo: {
+        name: 'Expo',
+        icon: '/expo.svg',
+        redirect: 'https://expo.dev/',
+    },
+    'React Native': {
+        name: 'React Native',
+        icon: '/react-native.svg',
+        redirect: 'https://reactnative.dev/',
+    },
+    'Node.js': {
+        name: 'Node.js',
+        icon: '/node.svg',
+        redirect: 'https://nodejs.org/',
+    },
+    Express: {
+        name: 'Express',
+        icon: '/express.svg',
+        redirect: 'https://expressjs.com/',
+    },
+    MongoDB: {
+        name: 'MongoDB',
+        icon: '/mongodb.svg',
+        redirect: 'https://www.mongodb.com/',
+    },
+    'Next.js': {
+        name: 'Next.js',
+        icon: '/nextjs.svg',
+        redirect: 'https://nextjs.org/',
     },
 };
 

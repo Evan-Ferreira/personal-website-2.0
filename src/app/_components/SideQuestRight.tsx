@@ -31,7 +31,7 @@ const SideQuestRight = ({
                 <a href={link}>
                     <div className="flex items-center gap-2 hover:cursor-pointer ease-in-out duration-100 group/repo">
                         <p className="font-light text-md group-hover/repo:font-semibold">
-                            Repository
+                            Learn More
                         </p>
                         <img
                             src="/right-arrow-icon.svg"

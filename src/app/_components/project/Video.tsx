@@ -5,7 +5,7 @@ type VideoProps = {
 };
 
 const Video = ({ videoLink }: VideoProps) => {
-    return <img src={videoLink} width="100%" />;
+    return <video src={videoLink} width="100%" autoPlay muted loop />;
 };
 
 export default Video;
