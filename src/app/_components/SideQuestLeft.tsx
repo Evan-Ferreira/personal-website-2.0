@@ -7,7 +7,8 @@ type SideQuestProps = {
     title: string;
     description: string;
     link: string;
-    imagePath: string;
+    desktopImagePath: string;
+    mobileImagePath: string;
     year: string;
 };
 
@@ -15,7 +16,8 @@ const SideQuestLeft = ({
     title,
     description,
     link,
-    imagePath,
+    desktopImagePath,
+    mobileImagePath,
     year,
 }: SideQuestProps) => {
     const [mouseEnter, setMouseEnter] = useState(false);
@@ -50,7 +52,12 @@ const SideQuestLeft = ({
                     </div>
                 </a>
             </div>
-            <img className="w-full" src={imagePath} alt="" />
+            <img className="max-md:block hidden" src={mobileImagePath} alt="" />
+            <img
+                className="max-md:hidden block"
+                src={desktopImagePath}
+                alt=""
+            />
             <div
                 className="absolute inset-0 bg-gradient-to-r from-transparent via-[#2A2A2A]/30 via-20%
              via-[#2A2A2A]/50 via-40% via-[#2A2A2A]/70 via-70% to-[#2A2A2A]/90"
