@@ -10,10 +10,10 @@ const hostGrotesk = Host_Grotesk({
 
 export default function Home() {
     return (
-        <div className="flex bg-[#2A2A2A] h-screen w-screen pb-8 pt-32 px-48 gap-24">
-            <div className="w-1/2 flex items-center max-md:hidden overflow-hidden">
+        <div className="flex bg-[#2A2A2A] h-screen w-screen pb-8 pt-32 px-48 max-md:px-10 gap-24 max-md:justify-center max-md:items-center">
+            <div className="w-1/2 flex items-center max-lg:hidden overflow-hidden">
                 <div
-                    className="w-full grid grid-cols-1 mt-auto gap-4
+                    className="w-full grid grid-cols-1 mt-auto gap-4 
                 justify-items-center object-contain items-center overflow-auto h-screen no-scrollbar pb-48"
                 >
                     <Project
@@ -64,7 +64,7 @@ export default function Home() {
                     />
                 </div>
             </div>
-            <div className="w-full md:w-1/2 flex flex-col justify-center items-center gap-3">
+            <div className="w-full lg:w-1/2 flex flex-col justify-center items-center gap-3">
                 <div className="flex-col justify-center items-start w-full">
                     <div className="flex items-center gap-8">
                         <h1
@@ -81,7 +81,7 @@ export default function Home() {
                         Business student who loves to build software people
                         actually care about. Also likes wrestling.
                     </p>
-                    <Socials className="md:hidden mt-3" />
+                    <Socials className="md:hidden mt-3 max-md:mt-6" />
                 </div>
                 <Resume />
             </div>

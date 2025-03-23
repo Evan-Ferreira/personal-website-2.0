@@ -7,7 +7,9 @@ type SocialsProps = {
 
 const Socials = ({ className }: SocialsProps) => {
     return (
-        <div className={`flex flex-grow items-center gap-3 ${className}`}>
+        <div
+            className={`flex flex-grow items-center gap-3 max-md:justify-center ${className}`}
+        >
             <Link
                 href="https://www.linkedin.com/in/evan-ferreira/"
                 target="_blank"
