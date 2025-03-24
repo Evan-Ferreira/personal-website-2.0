@@ -128,7 +128,7 @@ const Project = ({
         <div className="flex object-contain flex-col">
             <div className="flex items-center">
                 <h3
-                    className={`${hostGrotesk.className} text-white text-lg font-light`}
+                    className={`${hostGrotesk.className} text-[#F9F9F9] text-lg font-light`}
                 >
                     {title} <span className="text-[#969696]">— {date}</span>
                 </h3>
@@ -144,7 +144,7 @@ const Project = ({
                         <div className="absolute inset-0 bg-[#2a2a2acb]"></div>
                         <div className="absolute inset-0 flex flex-col h-full w-full">
                             <p
-                                className={`${hostGrotesk.className} font-light px-6 py-2 hover:cursor-text`}
+                                className={`text-[#F9F9F9] ${hostGrotesk.className} font-light px-6 py-2 hover:cursor-text`}
                             >
                                 {description}
                             </p>
@@ -185,7 +185,7 @@ const Project = ({
                                 >
                                     <div className="flex gap-2 hover:cursor-pointer ease-in-out duration-100 font-light hover:font-semibold mr-3 group">
                                         <p
-                                            className={`${hostGrotesk.className}`}
+                                            className={`text-[#F9F9F9] ${hostGrotesk.className}`}
                                         >
                                             Learn More
                                         </p>
