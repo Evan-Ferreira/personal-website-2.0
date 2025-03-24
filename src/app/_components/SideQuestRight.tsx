@@ -40,7 +40,7 @@ const SideQuestRight = ({
                 />
                 <a href={link} target="_blank" rel="noopener noreferrer">
                     <div className="flex items-center gap-2 hover:cursor-pointer ease-in-out duration-100 group/repo">
-                        <p className="font-light text-md group-hover/repo:font-semibold">
+                        <p className="font-light text-md group-hover/repo:font-semibold text-[#F9F9F9] ">
                             Learn More
                         </p>
                         <img

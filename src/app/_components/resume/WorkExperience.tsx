@@ -31,17 +31,17 @@ const WorkExperience = ({
             }
         >
             <div className="flex gap-4 items-center">
-                <h3 className="text-lg">{title}</h3>
+                <h3 className="text-lg text-[#F9F9F9] ">{title}</h3>
                 <div className="flex-grow h-[0.1px] bg-[#969696] flex max-md:hidden"></div>
                 <div
-                    className={`flex-grow h-[0.1px] bg-[#969696] flex md:hidden ${
+                    className={`flex-grow h-[0.1px] bg-[#969696] flex md:hidden text-[#F9F9F9] ${
                         endDate !== 'Present' ? 'hidden' : ''
                     }`}
                 ></div>
-                <h2 className="text-lg block max-md:hidden">
+                <h2 className="text-lg block max-md:hidden text-[#F9F9F9]">
                     {startDate} {endDate ? `- ${endDate}` : ''}
                 </h2>
-                <h2 className="md:hidden">
+                <h2 className="md:hidden text-[#F9F9F9] ">
                     {endDate === 'Present' ? endDate : ''}
                 </h2>
             </div>
