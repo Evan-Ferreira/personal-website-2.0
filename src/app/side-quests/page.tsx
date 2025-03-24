@@ -25,7 +25,7 @@ const SideQuests = () => {
                 I ran a student-run startup club called inQUbate, where members pitched to investors and pitched
                 to win an all-inclusive trip to San Francisco (pictured here)."
                     link="https://www.instagram.com/inqubate.qu/"
-                    mobileImagePath="/sf_test.jpg"
+                    mobileImagePath="/sf-mobile.jpg"
                     desktopImagePath="/sf.jpeg"
                     year="2025"
                 />
@@ -36,8 +36,8 @@ const SideQuests = () => {
                     national level where I was previously ranked as 3rd in Canada
                     for the 2023-2024 season at 72kg."
                     link="https://gogaelsgo.com/sports/wrestling/roster/2022-2023"
-                    mobileImagePath="/sf_test.jpg"
-                    desktopImagePath="/sf.jpeg"
+                    mobileImagePath="/wrestling-mobile.png"
+                    desktopImagePath="/wrestling-desktop.png"
                     year="Present"
                 />
                 <SideQuestLeft
@@ -48,8 +48,8 @@ const SideQuests = () => {
                 $5,000 to kickstart Baobab, an app connecting those in need to
                 local donators completely anonymously."
                     link="https://www.queensu.ca/gazette/stories/students-recognized-city-kingston-impactful-innovations"
-                    mobileImagePath="/sf_test.jpg"
-                    desktopImagePath="/sf.jpeg"
+                    mobileImagePath="/myi-mobile.png"
+                    desktopImagePath="/myi-desk.png"
                     year="2024"
                 />
             </div>

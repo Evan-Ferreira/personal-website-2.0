@@ -125,7 +125,7 @@ const Project = ({
                 <Video videoLink={videoLink} />
                 {isHovered && (
                     <>
-                        <div className="absolute inset-0 bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]"></div>
+                        <div className="absolute inset-0 bg-[#2a2a2acb]"></div>
                         <div className="absolute inset-0 flex flex-col h-full w-full">
                             <p
                                 className={`${hostGrotesk.className} font-light px-6 py-2 hover:cursor-text`}
