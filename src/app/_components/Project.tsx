@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Host_Grotesk } from 'next/font/google';
 import Video from './project/Video';
 
@@ -107,6 +107,22 @@ const Project = ({
     videoLink,
 }: ProjectProps) => {
     const [isHovered, setIsHovered] = useState(false);
+    const [isDesktop, setIsDesktop] = useState(true);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsDesktop(window.innerWidth >= 1024);
+        };
+
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    if (!isDesktop) {
+        return null;
+    }
 
     return (
         <div className="flex object-contain flex-col">
