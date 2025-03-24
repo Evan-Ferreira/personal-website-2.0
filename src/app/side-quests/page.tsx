@@ -25,7 +25,7 @@ const SideQuests = () => {
                 I ran a student-run startup club called inQUbate, where members pitched to investors and pitched
                 to win an all-inclusive trip to San Francisco (pictured here)."
                     link="https://www.instagram.com/inqubate.qu/"
-                    mobileImagePath="/sf-mobile.jpg"
+                    mobileImagePath="/sf-mobile.JPG"
                     desktopImagePath="/sf-desktop.jpeg"
                     year="2025"
                 />
