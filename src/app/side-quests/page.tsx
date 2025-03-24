@@ -26,7 +26,7 @@ const SideQuests = () => {
                 to win an all-inclusive trip to San Francisco (pictured here)."
                     link="https://www.instagram.com/inqubate.qu/"
                     mobileImagePath="/sf-mobile.jpg"
-                    desktopImagePath="/sf.jpeg"
+                    desktopImagePath="/sf-desktop.jpeg"
                     year="2025"
                 />
                 <SideQuestRight
