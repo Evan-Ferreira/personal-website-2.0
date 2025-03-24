@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import TitleDescription from '../side-quests/title-description';
+import Images from '../side-quests/images';
 
 type SideQuestProps = {
     title: string;
@@ -52,11 +53,9 @@ const SideQuestRight = ({
                     </div>
                 </a>
             </div>
-            <img className="max-md:block hidden" src={mobileImagePath} alt="" />
-            <img
-                className="max-md:hidden block"
-                src={desktopImagePath}
-                alt=""
+            <Images
+                mobileImagePath={mobileImagePath}
+                desktopImagePath={desktopImagePath}
             />
             <div
                 className="absolute inset-0 bg-gradient-to-l from-transparent via-[#2A2A2A]/30 via-20%
