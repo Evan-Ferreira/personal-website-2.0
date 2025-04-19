@@ -10,20 +10,12 @@ const SideQuests = () => {
                 <h1 className="text-white text-5xl font-bold  mt-2 mb-3">
                     SIDE QUESTS
                 </h1>
-                <p className="text-[#E9E9E9] text-sm">
-                    I like to keep myself busy — maybe too busy. I have a lot of
-                    hobbies and side projects and when I&apos;m curious about
-                    something, I dive deep into it. Here you&apos;ll find
-                    anything related to software, athletics, and everything in
-                    between.
-                </p>
             </div>
             <div className="grid grid-cols-1 gap-12">
                 <SideQuestLeft
                     title="inQUbate - All Inclusive Trip to SF"
-                    description="I love startups and I wanted to build a community of like-minded individuals. 
-                I ran a student-run startup club called inQUbate, where members pitched to investors and pitched
-                to win an all-inclusive trip to San Francisco (pictured here)."
+                    description="I ran startup club called inQUbate, where members pitched to investors and
+                to win an all-inclusive trip to San Francisco. Click to read my reflections."
                     link="https://www.instagram.com/inqubate.qu/"
                     mobileImagePath="/sf-mobile.JPG"
                     desktopImagePath="/sf-desktop.jpeg"
@@ -31,8 +23,7 @@ const SideQuests = () => {
                 />
                 <SideQuestRight
                     title="Wrestling"
-                    description="When I'm not coding or studying, you'll catch me on the wrestling mat. I love
-                    wrestling — for the past 6 years, I have competed at the provincial and
+                    description="For the past 6 years, I have competed at the provincial and
                     national level where I was previously ranked as 3rd in Canada
                     for the 2023-2024 season at 72kg."
                     link="https://gogaelsgo.com/sports/wrestling/roster/2022-2023"
@@ -43,9 +34,7 @@ const SideQuests = () => {
                 <SideQuestLeft
                     title="Mayor's Innovation Challenge (Baobab)"
                     description="
-                Last March, my two friends and I qualified for the Mayor's
-                Innovation Challenge. We won the competition and were awarded
-                $5,000 to kickstart Baobab, an app connecting those in need to
+                My friends and I won $5,000 from the Mayor of Kingston to launch Baobab, an app connecting those in need to
                 local donators completely anonymously."
                     link="https://www.queensu.ca/gazette/stories/students-recognized-city-kingston-impactful-innovations"
                     mobileImagePath="/myi-mobile.png"
