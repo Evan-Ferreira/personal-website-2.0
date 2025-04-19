@@ -13,7 +13,7 @@ const SideQuests = () => {
             </div>
             <div className="grid grid-cols-1 gap-12">
                 <SideQuestLeft
-                    title="inQUbate - All Inclusive Trip to SF"
+                    title="inQUbate"
                     description="I ran startup club called inQUbate, where members pitched to investors and
                 to win an all-inclusive trip to San Francisco. Click to read my reflections."
                     link="https://www.instagram.com/inqubate.qu/"
