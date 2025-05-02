@@ -7,7 +7,7 @@ import P from '../../_components/writing/p';
 const Article = () => {
     return (
         <Template
-            title="A WORLD AWAY IN SAN FRANCISCO"
+            title="A WORLD AWAY IN SAN FRANCISCOOO"
             date="2021-01-01"
             views={100}
         >
