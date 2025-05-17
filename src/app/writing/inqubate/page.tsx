@@ -7,24 +7,13 @@ import P from '../../_components/writing/p';
 const Article = () => {
     return (
         <Template
-            title="A WORLD AWAY IN SAN FRANCISCOOO"
+            title="INQUBATE: FROM SHIT TO THE SHIT"
             date="2021-01-01"
             views={100}
         >
             <P>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quos. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quisquam, quos. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                quos. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quisquam, quos. Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Quisquam, quos. Lorem ipsum dolor sit amet
-                consectetur adipisicing elit. Quisquam, quos. Lorem ipsum dolor
-                sit amet consectetur adipisicing elit. Quisquam, quos. Lorem
-                ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-                quos.
+                For anyone who doesn't know me, I
+                <span className="font-semibold">love</span> startups. I even have founded <a href=""></a>
             </P>
             <Image src="/test.jpg" alt="Test" caption="Test" />
             <P>
