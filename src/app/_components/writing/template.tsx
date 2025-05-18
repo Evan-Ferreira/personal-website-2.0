@@ -1,5 +1,5 @@
 import React from 'react';
-import Info from '../misc/info';
+import Info from './misc/info';
 
 interface TemplateProps {
     children: React.ReactNode;

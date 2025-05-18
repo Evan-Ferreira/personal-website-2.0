@@ -12,8 +12,10 @@
     "@supabase/supabase-js": "^2.49.4",
     "@vercel/analytics": "^1.5.0",
     "next": "15.2.0",
+    "prismjs": "^1.30.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "react-syntax-highlighter": "^15.6.1"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

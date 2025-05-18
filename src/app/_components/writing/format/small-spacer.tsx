@@ -5,7 +5,7 @@ interface SmallSpacerProps {
 }
 
 const SmallSpacer = ({ className }: SmallSpacerProps) => {
-    return <div className={`${className} h-2`}></div>;
+    return <div className={`${className} h-4`}></div>;
 };
 
 export default SmallSpacer;
