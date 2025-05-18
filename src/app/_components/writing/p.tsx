@@ -7,7 +7,7 @@ interface PProps {
 
 const P = ({ children, className }: PProps) => {
     return (
-        <p className={`text-white text-md font-light ${className}`}>
+        <p className={`${className} text-white text-md font-light`}>
             {children}
         </p>
     );
