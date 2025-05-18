@@ -59,7 +59,7 @@ const Article = () => {
             <SmallSpacer />
             <P>
                 Embarrassing, I know. But after securing my internship at
-                Shopify, I find myself in a unique "limbo" period for
+                Shopify, I find myself in a unique &quot;limbo&quot; period for
                 once–I&apos;m not scrambling to find another job. This summer,
                 I&apos;m using this breathing room to master the basics of
                 full-stack development.
