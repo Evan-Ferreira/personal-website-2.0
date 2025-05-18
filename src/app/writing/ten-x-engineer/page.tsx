@@ -14,7 +14,6 @@ const Article = () => {
                 unfulfilling career. No diss, to anyone pursuing finance or
                 consulting – I just realized they're not for me.
             </P>
-            \{' '}
         </Template>
     );
 };
