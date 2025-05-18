@@ -1,8 +1,8 @@
 import React from 'react';
-import Template from '../../_components/writing/template';
-import P from '@/app/_components/writing/p';
-import SmallSpacer from '@/app/_components/writing/small-spacer';
-import Spacer from '@/app/_components/writing/spacer';
+import Template from '../../_components/writing/display/template';
+import P from '@/app/_components/writing/typography/p';
+import SmallSpacer from '@/app/_components/writing/format/small-spacer';
+import Spacer from '@/app/_components/writing/format/spacer';
 
 const Article = () => {
     return (
