@@ -3,8 +3,8 @@ import { supabase } from '@/lib/supabase';
 
 export async function GET(
     request: NextRequest,
-    { params }: { params: { title: string } }
-) {
+    { params }: { params: Promise<{ title: string }> }
+): Promise<NextResponse> {
     const { title } = await params;
 
     const { data, error } = await supabase
