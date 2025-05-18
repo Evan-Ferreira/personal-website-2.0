@@ -15,7 +15,7 @@ const page = () => {
                     description="A living document outlining what I've used, the steps I've taken, and what I've learned to become a better engineer."
                     link="/writing/ten-x-engineer"
                     imagePath="/qhacks.jpeg"
-                    date="2025-05-17"
+                    date="2025-05-18"
                 >
                     Journey to 10x Engineer{' '}
                     <span className="text-[#969696] font-medium">

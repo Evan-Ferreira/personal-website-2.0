@@ -12,7 +12,7 @@ const Article = () => {
     return (
         <Template
             title="Journey to 10x Engineer"
-            date="2021-01-01"
+            date="2025-05-18"
             titleId="ten-x-engineer"
         >
             <P>
