@@ -1,15 +1,15 @@
 import React from 'react';
 
 type ArticleProps = {
-    title: string;
-    description: string;
+    children: React.ReactNode;
+    description?: string;
     link: string;
     imagePath: string;
     date: string;
 };
 
 const Article = ({
-    title,
+    children,
     description,
     link,
     imagePath,
@@ -19,15 +19,15 @@ const Article = ({
         <div className="w-full h-full overflow-hidden relative hover:scale-[105%] duration-150 ease-in-out group max-lg:opacity-100">
             <div
                 className="z-10 absolute h-full w-full flex flex-col justify-between py-8 px-8 opacity-0 max-lg:opacity-100 group-hover:opacity-100 
-            group-hover:translate-x-0 ease-in-out duration-300 pointer-events-none max-lg:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]
+            group-hover:translate-x-0 ease-in-out duration-300 pointer-events-none max-lg:pointer-events-auto max-lg:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A]
             group-hover:pointer-events-auto hover:bg-gradient-to-b from-[#2A2A2A]/50 to-[#2A2A2A] inset-0"
             >
                 <div className="flex flex-col relative z-10">
                     <h2 className="text-[#E9E9E9] text-sm font-bold">{date}</h2>
-                    <h2 className="text-[#E9E9E9] text-3xl font-semibold mb-2">
-                        {title}
+                    <h2 className="text-[#E9E9E9] lg:text-3xl text-xl text-left font-semibold mb-2">
+                        {children}
                     </h2>
-                    <p className="text-[#E9E9E9] text-sm font-light">
+                    <p className="text-[#E9E9E9] text-sm font-light max-lg:hidden">
                         {description}
                     </p>
                 </div>

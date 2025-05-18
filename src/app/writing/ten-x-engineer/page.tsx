@@ -31,12 +31,12 @@ const Article = () => {
             </P>
             <SmallSpacer />
             <ImageCaption
-                src="/deer-journal.JPG"
+                src="/qhacks.jpeg"
                 alt="Hackathon"
-                caption="Joseph, Matt, and I at QHacks 2024, my first hackathon. 
-                Joseph and Matt grinding out our project
+                caption=" 
+                Joseph and Matt grinding out our project at my first hackathon
                 while I tried to learn Python."
-                width={400}
+                width={600}
                 height={400}
             />
             <SmallSpacer />

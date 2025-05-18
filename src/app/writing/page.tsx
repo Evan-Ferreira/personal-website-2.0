@@ -12,12 +12,16 @@ const page = () => {
             </div>
             <div className="grid lg:grid-cols-2 grid-cols-1 gap-16">
                 <Article
-                    title="Journey to Becoming a 10x Engineer"
                     description="A living document outlining what I've used, the steps I've taken, and what I've learned to become a better engineer."
                     link="/writing/ten-x-engineer"
-                    imagePath="/deer-journal.JPG"
+                    imagePath="/qhacks.jpeg"
                     date="2025-05-17"
-                />
+                >
+                    Journey to 10x Engineer{' '}
+                    <span className="text-[#969696] font-medium">
+                        – Living Document
+                    </span>
+                </Article>
             </div>
         </div>
     );
