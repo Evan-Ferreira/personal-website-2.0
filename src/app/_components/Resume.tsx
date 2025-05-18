@@ -40,7 +40,7 @@ const Resume = () => {
             >
                 <WorkExperience
                     id={0}
-                    title="Software Developer"
+                    title="Software Engineer"
                     company="Taiv (YC W20)"
                     description="Series A ad-tech startup focused on real-time TV commercial detection."
                     startDate="2024"
@@ -50,7 +50,7 @@ const Resume = () => {
                 />
                 <WorkExperience
                     id={1}
-                    title="Software Developer"
+                    title="Software Engineer"
                     company="Pillexa"
                     description="D2C healthcare platform focused on quickly scaling e-commerce health brands."
                     startDate="2024"
