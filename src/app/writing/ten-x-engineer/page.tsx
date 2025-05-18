@@ -4,7 +4,11 @@ import P from '@/app/_components/writing/p';
 
 const Article = () => {
     return (
-        <Template title="Ten X Engineer" date="2021-01-01" views={100}>
+        <Template
+            title="Ten X Engineer"
+            date="2021-01-01"
+            titleId="ten-x-engineer"
+        >
             <P>
                 For anyone who doesn’t know me – I’m a business student. When I
                 came to Queen’s, I wanted to make a shit ton of money and
