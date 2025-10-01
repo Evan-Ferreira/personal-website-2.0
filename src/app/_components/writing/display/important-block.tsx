@@ -6,7 +6,7 @@ interface ImportantBlockProps {
 
 const ImportantBlock = ({ text }: ImportantBlockProps) => {
     return (
-        <div className="bg-[#969696] p-4 rounded-lg flex items-center justify-center">
+        <div className="bg-[#373737] p-4 rounded-lg flex items-center justify-center">
             <p className="text-white text-lg font-semibold">{text}</p>
         </div>
     );
